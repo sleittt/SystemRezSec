@@ -6,6 +6,7 @@ public class StateObject {
 
     synchronized void increment() {
         i++;
+        //DebugLogger.log("increment -> %d", i);
     }
 
     public int getI() {
